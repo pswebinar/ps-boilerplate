@@ -2,6 +2,9 @@ import { getMetadata } from '../../scripts/aem.js';
 import { loadFragment } from '../fragment/fragment.js';
 
 // media query match that indicates mobile/tablet width
+
+<script src="https://assets.adobedtm.com/161206a90d6a/1483849c0dd5/launch-0abc6e3a4c02-development.min.js" async></script>
+
 const isDesktop = window.matchMedia('(min-width: 900px)');
 
 function closeOnEscape(e) {
